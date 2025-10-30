@@ -8,8 +8,7 @@ public class Ascend {
 		int biggest= Math.max(big,c);
 		int minAB= Math.min(a,b);
 		int smallest= Math.min(minAB,c);
-		int maxAB= Math.max(a,b);
-		int d= Math.min (maxAB,c);
+		int d= Math.min (big,c);
 		int middle= Math.max (d,minAB);
 		System.out.println(a+ " "+ b+ " "+ c);
 		System.out.println(smallest+ " "+ middle+ " "+ biggest);
