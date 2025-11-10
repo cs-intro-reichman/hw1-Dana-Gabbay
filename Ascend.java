@@ -1,3 +1,16 @@
+/*
+
+feedback:
+
+Great Work
+
+Yam
+
+*/
+
+
+
+
 public class Ascend {
 	public static void main(String[] args) {
 		int lim= Integer.parseInt(args[0]);
@@ -14,3 +27,4 @@ public class Ascend {
 		System.out.println(smallest+ " "+ middle+ " "+ biggest);
 	}
 }
+
